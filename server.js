@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Set 'views' directory for any views
 // being rendered res.render()
-app.set("views", path.join(__dirname, "views"));
+// app.set("views", path.join(__dirname, "views"));
 
 // turn on routes
 app.use(routes);
